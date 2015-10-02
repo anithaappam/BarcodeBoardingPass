@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Boarding Pass</title>
+    	<link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    </head>
+
+<body class="main_body">
+    <form id="form1" runat="server">
+           <div id="header">
+    <div class="logo" >
+        <table style="width: 1500px" >
+        <tr>
+            <td  class="auto-style1" style="font-family: 'Browallia New'; font-size: 93px; font-weight: bold; text-align: center; color: #FFFFFF;">
+                <br />
+                <br />
+                <br />
+                <br />
+             &nbsp;  &nbsp;Mach Secure</td>
+               </tr>
+       
+            <tr>
+            <td class="auto-style1" style="font-family: 'Browallia New'; font-size: 35px; font-weight: bold; text-align: center; color: #DFDFDF;">
+                <br />
+               <br />
+             &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 Boarding Pass Generator
+            </td>
+                </tr>
+     </table>
+
+    </div>
+    <div class="login_header">
+           </div>     
+                 <div class="nav">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" ItemWrap="True" CssClass="nav1" ForeColor="#1F345A" >
+                        <StaticHoverStyle />
+                        <Items>
+                            <asp:MenuItem Text="Home" Value="Home" NavigateUrl="Home.aspx">
+                            </asp:MenuItem>
+                                                 
+                      </Items>
+                        <LevelMenuItemStyles>
+                            <asp:MenuItemStyle />
+                        </LevelMenuItemStyles>
+                        <LevelSubMenuStyles>
+                            <asp:SubMenuStyle  />
+                        </LevelSubMenuStyles>
+                        <LevelSelectedStyles>
+                            <asp:MenuItemStyle />
+                        </LevelSelectedStyles>
+                        <StaticMenuStyle />
+                        <StaticSelectedStyle />
+                        <StaticMenuItemStyle HorizontalPadding="10"  Font-Bold="True"  Font-Names="Kartika"  />
+                        <DynamicMenuStyle />
+                        <DynamicSelectedStyle />
+                        <DynamicMenuItemStyle />
+                    </asp:Menu>
+			</div>
+               <div>
+       </div>
+  
+       </div>
+               
+	  <div id="main">
+			<div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                   
+                </asp:ContentPlaceHolder>
+		   </div>
+	   </div>
+    </form>
+	
+	 <div class="footer_bg">
+	<div id="footer">
+        <div class="footer_right">
+            <p class="float-center" style="font-size: -1px">MacDonald Humfrey (Automation) Ltd - Mach-Secure © 2015</p>
+                    
+        </div>
+        </div>
+</div>
+	
+</body>
+</html>

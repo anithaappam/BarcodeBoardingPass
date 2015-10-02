@@ -1,0 +1,196 @@
+﻿HTML, BODY { margin:0; padding:0; border:0; font:100%/100.1% Arial, Helvetica, sans-serif; }
+H1, H2, H3, H4, H5, H6, DIV, FORM, UL, OL, P { border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    margin: 87px 0 0 0px;
+    padding: 0;
+    width: 100%;
+}
+
+#main,  #footer		{ width:96%; margin:0 2%; padding:0;}
+#header 			{ width:100%; margin:0; position:fixed; z-index:99; background:#fff;
+    top: -2px;
+    left: 0px;
+    height: 190px;
+}
+.header				{ width:98%; margin:0 1%;  }
+.nav				{ font:11px Tahoma; padding:0 0 0 10px; background:url(../images/nav_bg.png) repeat-x right top; margin:187px 0 0 0; height:31px;}
+.nav table a 		{ color:#666; margin:1px 0 0 0; padding:7px 10px 6px 10px; display:block; float:none; background:url(../images/nav_line.jpg) no-repeat right center;}	
+.nav table a:hover	{ color:#fff; background:url(../images/nav_hover.jpg) repeat-x right top;} 
+.nav img			{ display:none;}
+
+.nav span			{ float:left;}
+.nav span a 		{ color:#666; margin:1px 0 0 0; padding:7px 10px 6px 10px; display:block; float:none; background:url(../images/nav_line.jpg) no-repeat right center;}	
+.nav span a:hover	{ color:#fff; background:url(../images/nav_hover.jpg) repeat-x right top;} 
+
+.nav1				{ font:13px Tahoma bold; padding:5px 0 0 10px; background:url(../images/nav_bg.png) repeat-x right top; margin:0 0 0 0; height:50px;}
+.nav1 table a 		{ color:#0C416F; margin:1px 0 0 0; padding:7px 10px 6px 10px; display:block; float:none; background:url(../images/nav_line.jpg) no-repeat right center;}	
+.nav1 table a:hover	{ color:#fff; background:url(../images/nav_hover.jpg) repeat-x right top;} 
+.nav1 img			{ display:none;}
+
+.nav1 span			{ float:left;}
+.nav1 span a 		{ color:#666; margin:1px 0 0 0; padding:7px 10px 6px 10px; display:block; float:none; background:url(../images/nav_line.jpg) no-repeat right center;}	
+.nav1 span a:hover	{ color:#fff; background:url(../images/nav_hover.jpg) repeat-x right top;} 
+
+
+
+#header .logo		{ background:url('../images/MachLogo1.png') no-repeat left top; 
+margin:6px 0 0 20px; padding:0; height:180px; 
+width:170px; 
+float:left; position:relative; z-index:99;
+    top: 0px;
+    left: 0px;
+}
+#header .logo a		{ float:left; display:block; margin:0 0 0 176px; 
+padding:0; height:152px; 
+width:536px;
+}
+
+.panel{
+        margin: 0;
+        padding: 0;
+    }
+/****************************** Start Here Login Page css ***************************************/
+
+.login_body					{ font-family:Georgia, serif; background:url(../images/bck1.gif) repeat-x right top; color:#3a3a3a; position:relative;  }
+.login_body	.login_header 	{ background:url(../images/tophimg.gif) no-repeat right top; position:absolute; right:0; top:0; width:784px; height:85px;}
+.login_header span			{ float:right; margin:6px 30px 0 0; padding:0; font:bold 13px Arial, Helvetica, sans-serif; color:#fff}
+
+.bg_color
+					{ background:#a4b3c6; height:30px; width:100%; position:absolute; top:85px; left:0;}
+.login_box					{ margin:0 11px 0px 250px; 
+padding:0; width:792px; 
+padding:0; position:absolute; left:212px;
+	top: 131px;
+    right: -24px;
+    height: 25px;
+}
+.login_box .heading_login	{ background:#223865; border-radius:5px 5px 0 0; padding:4px 10px; color:#fff; font:bold 0.88em Arial; text-align:left;
+	width: 510px;
+	height: 18px;
+}
+.login_fildes				{ background:#F1F2EF; border:1px solid #ccc; padding:20px 10px; font:11px Verdana, Geneva, sans-serif; 
+	width: 530px;
+    height: 177px;
+}
+.login_box select 			{ background:#fff; border:1px solid #ccc; border-radius:3px; color:#555; display:inline-block; font-size:13px; padding:4px; width:220px;}
+.login_box .fields
+{ background:#fff; border:1px solid #ccc; border-radius:3px; color:#555; display:block; font-size:13px; padding:4px; width:230px; margin:8px 0 15px 0; height:30px;}
+
+
+/********/
+
+.loginbox					{ margin:0 auto 0 250px; 
+padding:0; width:1000px; 
+padding:0; position:absolute; top:138px; 
+left:6.4%;
+}
+
+.loginbox .headinglogin	{ background:#223865; border-radius:5px 5px 0 0; padding:4px 10px; color:#fff; font:bold 0.85em Arial; text-align:left;
+	width: 745px;
+	height: 18px;
+}
+.loginfildes				{ background:#F1F2EF; border:1px solid #ccc; padding:20px 10px; font:11px Verdana, Geneva, sans-serif; 
+	width: 765px;
+	height: 40px;
+}
+t 			{ background:#fff; border:1px solid #ccc; border-radius:3px; color:#555; display:inline-block; font-size:13px; padding:4px; width:220px;}
+.loginbox .fields 			{ background:#fff; border:1px solid #ccc; border-radius:3px; color:#555; display:block; font-size:13px; padding:4px; width:230px; margin:8px 0 15px 0; height:30px;}
+
+
+
+
+/********/
+
+.loginbox3				{ margin:0 11px 0px 250px; 
+padding:0; width:819px; 
+padding:0; position:absolute; left:301px;
+	top: 134px;
+    right: 81px;
+    height: 25px;
+}
+.loginbox3 .headinglogin3	{ background:#223865; border-radius:5px 5px 0 0; padding:4px 10px; color:#fff; font:bold 0.88em Arial; text-align:left;
+	width: 397px;
+	height: 18px;
+}
+.loginfildes3				{ background:#F1F2EF; border:1px solid #ccc; padding:20px 10px; font:11px Verdana, Geneva, sans-serif; 
+	width: 417px;
+    height: 77px;
+}
+.loginbox3 select 			{ background:#fff; border:1px solid #ccc; border-radius:3px; color:#555; display:inline-block; font-size:13px; padding:4px; width:220px;}
+.loginbox3 .fields
+{ background:#fff; border:1px solid #ccc; border-radius:3px; color:#555; display:block; font-size:13px; padding:4px; width:230px; margin:8px 0 15px 0; height:30px;}
+
+/**************** End Here Login Page css ***************************************/
+							
+.fonts_styles2 td				{ font:normal 10px Verdana, Geneva, sans-serif !important;}
+.fonts_styles2 th				{ border-style:none !important; border-collapse:inherit!important; height:29px;  padding:0 8px; font-weight: bold; color:#A4201C!important; font:12px Verdana;}
+#ctl00_ContentPlaceHolder1_gv 	{  border-style:none !important; }
+.color_td1					{ color:#4B555E; height:24px !important;}
+.color_td1 td				{ border-bottom:none !important; border-left:1px solid #c3c9ce !important; border-right:1px solid #c3c9ce !important; cursor:default; 			
+							  font:normal 11px Verdana !important; height: 25px; margin:0; padding:0 8px; vertical-align: middle;border-top:none !important;}
+.color_td1:hover			{ background:#e7f2f9 url(../images/hover_bg.jpg) repeat-x left bottom !important; height:24px !important; color:#1d2128 !important;}
+.border_bottom 		{ background:url(../images/border_bg.jpg) repeat-x left 10px;}
+.border_bottom td 	{ padding:21px 15px 0px 0;}
+
+.list_items			{ margin:0; padding:0; background:#B0C4DE; border-radius:8px; border:1px solid #85ADDD;}	
+.list_items .border_bottom		{ border-bottom:1px solid #000; background:none !important;
+	height: 40px;
+}
+.list_items .heading 					{ font:bold 13px Verdana, Geneva, sans-serif; color:#fff;}	  
+			
+/***************/
+
+.main_body					{ font-family:Georgia, serif; background:url(../images/bg2.png) repeat left 110px fixed; position:relative; bottom:1px;
+    left: 0px;
+    height: 18px;
+}
+	
+.main_body					{ font-family:Georgia, serif; background:url(../images/bg2.png) repeat left 110px fixed; position:relative; bottom:1px;
+    left: 0px;
+    height: 18px;
+}
+	.login_header 	{ background:url(../images/bg.png) repeat right top; position:absolute; right:0; top:-88px; 
+width:100%; height:187px;
+}
+
+.ctl00_Menu1_0			 	{ background:#f9f9f9; border:1px solid #ccc; width:180px; display:block;}
+.ctl00_Menu1_0 a 			{ background:none !important; border-bottom:1px solid #ccc; margin:0 !important; padding:5px 10px !important; width:180px; display:block;}
+.ctl00_Menu1_0 a:hover 		{ background:#b0c4de !important; color:#666 !important;}
+
+.footer_bg 					{ margin:20px 0 0 0; padding:1px 0; background:#C3C3C3 url(../images/footer_bg.png) repeat-x; position:fixed; bottom:0; width:100%}
+.footer_bg .footer_right	{ margin:5px 0; padding:0; width:100%; text-align:center; font-size:13px;}
+.footer_right p				{ margin:0; color:#666; font:bold 0.80em Arial, Helvetica, sans-serif; }			
+.footer_right a 			{ color:#000;}
+#content 					{ width:100%; margin:0 auto; padding:130px 0 0 0; position:relative; top:-18px; 
+min-height:439px;
+    left: 0px;
+    height: 126px;
+}
+
+
+/**********login***********/
+.loginbox2					{ margin:0 auto 0 250px; 
+padding:0; width:531px; 
+padding:0; position:absolute; top:167px; 
+left:6%;
+}
+.loginbox2 .headinglogin2	{ background:#205891; border-radius:5px 5px 0 0; padding:4px 10px; color:#fff; font:bold 0.85em Arial; text-align:left;
+	width: 324px;
+	height: 18px;
+	
+}
+.loginfildes2				{ background:#F1F2EF; border:1px solid #ccc; padding:20px 10px; font:11px Verdana, Geneva, sans-serif; 
+	width: 310px;
+	height: 145px;
+	
+	
+
+}
+.loginbox2 select 			{ background:#fff; border:1px solid #ccc; border-radius:3px; color:#555; display:inline-block; font-size:13px; padding:4px; width:220px;}
+.loginbox2 .fields 			{ background:#fff; border:1px solid #ccc; border-radius:3px; color:#555; display:block; font-size:13px; padding:4px; width:230px; margin:8px 0 15px 0; height:30px;}
+
+
+/***********************/
+
+
